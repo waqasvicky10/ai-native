@@ -1,0 +1,50 @@
+[
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\01-introduction.md",
+    "text": "\n# Chapter 1 — Introduction to AI in Daily Life\n\n**TL;DR:** AI is already part of your daily life — in your phone, apps, car, teacher, bank, and home.\n\n## 1. What this chapter covers\n- What AI really is (simple explanation)\n- Where you already use AI without noticing\n- Why learning AI now matters\n- How this book is structured\n\n## 2. Core concepts / explanation\nArtificial Intelligence ^(AI^) allows machines to learn from data and suggest actions.\nYour phone, YouTube, maps and spam filter all use AI.\nAI is a tool — not magic and not human.\n\n## 3. Practical examples\n\n``` \nPlan my day from 8am to 10pm including work and fitness\n```\n\n```\nGive me 10 creative ways to save time daily\n```\n\n```\nExplain AI to me like I am 12 years old\n```\n\n## 4. How to do it\n1. Open an AI app\n2. Ask a clear question\n3. Add details\n4. Use the response\n\n## 5. Safety tips\n- Never share passwords\n- Double check important info\n- Use AI as a helper\n\n## 6. Exercises\n- Ask for a daily plan\n- Ask for a healthy recipe\n- Ask AI to rewrite a message\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\02-fundamentals.md",
+    "text": "\n# Chapter 2 — Fundamentals of Artificial Intelligence\n\n**TL;DR:** AI learns from data and finds patterns to make suggestions.\n\n## What this chapter covers\n- What AI is\n- How AI learns\n- Common AI types\n\n## Core concepts\nAI uses **data + algorithms + learning**.\n- Narrow AI: one task (Siri, Maps)\n- Generative AI: creates (ChatGPT, Claude)\n\n## Practical prompts\n```\nExplain how AI works in 5 simple points\n```\n```\nTell me the difference between AI and humans\n```\n```\nList 5 AI examples in my house\n```\n\n## Safety\nAlways check AI answers before trusting them.\n\n## Exercises\n- Ask AI to teach a topic\n- Ask AI to quiz you\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\03-personal-productivity.md",
+    "text": "\n# Chapter 3 — AI for Personal Productivity\n\n**TL;DR:** AI helps plan, organize and reduce stress.\n\n## Uses\n- Scheduling\n- Emails\n- Focus\n\n## Practical prompts\n```\nMake a perfect daily schedule for me\n```\n```\nWrite a professional email asking for leave\n```\n```\nCreate a 3 hour deep focus plan\n```\n\n## Steps\n1. Write your goal\n2. Ask AI for a plan\n3. Follow it\n\n## Exercises\nAsk for a 7-day routine\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\04-home-and-family.md",
+    "text": "\n# Chapter 4 — AI for Home and Family\n\n**TL;DR:** AI can simplify home tasks and protect your family.\n\n## Usage\n- Smart speakers\n- Security cameras\n- Routines\n\n## Prompts\n```\nCreate a family cleaning schedule\n```\n```\nGive me kid-friendly learning games\n```\n```\nHow can I make my home smarter using AI?\n```\n\n## Exercises\nUse AI to plan a family day\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\05-work-and-career.md",
+    "text": "\n# Chapter 5 — AI for Work and Career\n\n**TL;DR:** AI boosts your job performance.\n\n## Tasks\n- Resume writing\n- Meeting notes\n- Ideas\n\n## Prompts\n```\nImprove my resume for IT job\n```\n```\nSummarize this meeting\n```\n```\nGive me interview questions for marketing role\n```\n\n## Exercise\nAsk AI to optimize your LinkedIn bio\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\06-health-and-wellness.md",
+    "text": "\n# Chapter 6 — AI for Health and Wellness\n\n**TL;DR:** AI can guide healthy habits.\n\n## Prompts\n```\nCreate a healthy daily routine\n```\n```\nDesign a 20 minute home workout\n```\n```\nGive stress reduction tips\n```\n\n## Warning\nDo not use AI for diagnosis.\n\n## Exercise\nAsk for a meal plan\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\07-money-and-finance.md",
+    "text": "\n# Chapter 7 — AI for Money and Finance\n\n**TL;DR:** AI can improve budgeting.\n\n## Prompts\n```\nMake a monthly budget plan\n```\n```\nHow can I save $200 monthly?\n```\n```\nExplain investing in simple words\n```\n\n## Exercise\nUse AI to track expenses\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\08-learning-and-education.md",
+    "text": "\n# Chapter 8 — AI for Learning\n\n**TL;DR:** AI is a personal tutor.\n\n## Prompts\n```\nExplain photosynthesis in simple words\n```\n```\nQuiz me on world history\n```\n```\nTeach me Spanish basics\n```\n\n## Exercise\nUse AI for daily revision\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\09-creativity-and-hobbies.md",
+    "text": "\n# Chapter 9 — AI for Creativity\n\n**TL;DR:** AI unlocks creativity.\n\n## Prompts\n```\nWrite a short story idea\n```\n```\nGenerate art ideas\n```\n```\nCreate song lyrics about nature\n```\n\n## Exercise\nAsk for 5 creative hobbies\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\10-privacy-safety-and-ethics.md",
+    "text": "\n# Chapter 10 — Safety & Ethics\n\n**TL;DR:** Be smart and safe with AI.\n\n## Rules\n- Never share passwords\n- Avoid sensitive info\n- Question outputs\n\n## Prompts\n```\nHow do I stay safe using AI apps?\n```\n```\nExplain AI bias in simple terms\n```\n\n## Exercise\nReview app permissions\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\11-practical-how-tos.md",
+    "text": "\n# Chapter 11 — Practical How-Tos\n\n**TL;DR:** AI can solve daily problems.\n\n## Prompts\n```\nPlan a vacation trip\n```\n```\nWrite a resume for me\n```\n```\nOrganize my day better\n```\n\n## Exercise\nTry automating a task\n"
+  },
+  {
+    "path": "..\\docs\\AI_USAGE_IN_DAILY_LIFE\\12-future-outlook.md",
+    "text": "\n# Chapter 12 — The Future of AI\n\n**TL;DR:** AI will shape everyday life.\n\n## Topics\n- Smart cities\n- AI doctors\n- AI teachers\n\n## Prompts\n```\nPredict AI in 2035\n```\n```\nHow will AI affect jobs?\n```\n\n## Exercise\nWrite your future goals with AI\n"
+  }
+]

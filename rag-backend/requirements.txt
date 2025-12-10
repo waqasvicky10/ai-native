@@ -1,0 +1,7 @@
+sentence-transformers
+torch
+qdrant-client
+python-dotenv
+fastapi
+uvicorn
+pydantic

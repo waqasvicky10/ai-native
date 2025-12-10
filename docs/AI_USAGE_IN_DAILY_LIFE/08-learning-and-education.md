@@ -1,25 +1,23 @@
-(
-echo ---
-echo title: "Chapter 8 — AI for Learning and Education"
-echo sidebar_label: "8. Learning"
-echo description: "AI for better studying"
-echo ---
-echo.
-echo # Chapter 8 — AI for Learning
-echo.
-echo **TL;DR:** AI is a personal tutor.
-echo.
-echo ## Prompts
-echo ```
-echo Explain photosynthesis in simple words
-echo ```
-echo ```
-echo Quiz me on world history
-echo ```
-echo ```
-echo Teach me Spanish basics
-echo ```
-echo.
-echo ## Exercise
-echo Use AI for daily revision
-) > 08-learning-and-education.md
+---
+title: "Chapter 8 — AI for Learning and Education"
+sidebar_label: "8. Learning"
+description: "AI for better studying"
+---
+
+# Chapter 8 — AI for Learning
+
+**TL;DR:** AI is a personal tutor.
+
+## Prompts
+```
+Explain photosynthesis in simple words
+```
+```
+Quiz me on world history
+```
+```
+Teach me Spanish basics
+```
+
+## Exercise
+Use AI for daily revision
