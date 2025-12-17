@@ -1,0 +1,225 @@
+/* Digital / Cyber Theme */
+:root {
+  --ifm-color-primary: #0070f3;
+  --ifm-color-primary-dark: #0065dc;
+  --ifm-color-primary-darker: #005fcf;
+  --ifm-color-primary-darkest: #004ea1;
+  --ifm-color-primary-light: #1a82ff;
+  --ifm-color-primary-lighter: #288bff;
+  --ifm-color-primary-lightest: #52a4ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* PURE BLACK BACKGROUND FORCE (OVERRIDES LIGHT MODE) */
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
+  --ifm-color-content-secondary: #eee;
+  /* Light text for light mode */
+  --ifm-font-color-base: #fff;
+  /* Force white text */
+
+  /* Custom Digital Fonts */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Courier New', Courier, monospace;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00f3ff;
+  /* Neon Cyan */
+  --ifm-color-primary-dark: #00dbd6;
+  --ifm-color-primary-darker: #00cfca;
+  --ifm-color-primary-darkest: #00aa9d;
+  --ifm-color-primary-light: #26f6ff;
+  --ifm-color-primary-lighter: #3bf7ff;
+  --ifm-color-primary-lightest: #7dfaff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* PURE BLACK BACKGROUND as requested */
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
+  --ifm-menu-color-background-active: rgba(255, 255, 255, 0.05);
+  --ifm-menu-color: #fff;
+}
+
+/* Digital Hero Styling */
+.hero {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
+  color: #fff;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  position: relative;
+}
+
+.hero__title {
+  text-shadow: 0 0 10px var(--ifm-color-primary);
+  letter-spacing: 2px;
+}
+
+/* Author Section Removed */
+
+/* Colorful Gradient Text Backgrounds for Main Headers */
+h1,
+h2,
+h3 {
+  color: #ffffff;
+  /* Professional White */
+  background: none;
+  -webkit-text-fill-color: initial;
+  text-shadow: none;
+  /* Remove glow for cleaner look */
+  display: inline-block;
+}
+
+.button--secondary {
+  border: 1px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: #000;
+  box-shadow: 0 0 15px var(--ifm-color-primary);
+}
+
+/* Digital Sidebar Styling */
+.menu__link {
+  font-family: var(--ifm-heading-font-family);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--ifm-color-primary-lightest);
+  border-left: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  color: #fff;
+  border-left: 2px solid var(--ifm-color-primary);
+  background: rgba(0, 243, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+  text-shadow: 0 0 5px var(--ifm-color-primary);
+}
+
+/* Force pure black background on docs pages too */
+[data-theme='dark'] body {
+  background-color: #000;
+}
+
+/* Force global black navbar for all themes */
+.navbar {
+  background-color: #000 !important;
+  border-bottom: 1px solid var(--ifm-color-primary-dark);
+  color: #fff;
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #000;
+  border-bottom: 1px solid var(--ifm-color-primary-dark);
+}
+
+/* GLOBAL BLACK OVERRIDES FOR CONTENT */
+body,
+.main-wrapper,
+[class*='docPage'],
+[class*='docSidebarContainer'],
+.markdown {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+[data-theme='dark'] .main-wrapper {
+  background-color: #000;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background-color: #000 !important;
+  border-right: 1px solid var(--ifm-color-primary-dark);
+}
+
+/* Ensure navbar links are visible on black background in light mode */
+.navbar__link,
+.navbar__brand {
+  color: #fff !important;
+}
+
+/* Footer Layout Updates */
+.footer {
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+}
+
+.footer__links,
+.footer__items {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  /* Increased spacing */
+  margin-bottom: 0.5rem;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  /* Ensure items wrap on small screens */
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__links,
+  .footer__items {
+    gap: 1rem;
+    flex-direction: column;
+    /* Stack vertically on very small screens if needed, or just wrap */
+  }
+}
+
+.footer__col {
+  margin: 0 !important;
+  min-width: auto !important;
+}
+
+.footer__title {
+  display: none;
+  /* Hide 'Social' / 'More' titles for a clean icon row */
+}
+
+.footer__item {
+  display: inline-block;
+}
+
+.footer__link-item {
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #00f3ff;
+  /* Neon hover */
+  text-shadow: 0 0 10px #00f3ff;
+}
+
+/* Reduced Hero Subtitle */
+.hero__subtitle {
+  font-size: 1rem;
+  /* Reduced further from 1.2rem */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Author Name in Hero */
+.hero__author {
+  font-size: 1.5rem;
+  color: #00f3ff;
+  /* Neon Cyan to stand out */
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px rgba(0, 243, 255, 0.3);
+}
+
+.footer__link-item i {
+  margin-right: 0.5rem;
+}
